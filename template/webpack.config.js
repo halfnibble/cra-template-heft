@@ -53,6 +53,10 @@ function createWebpackConfig({ production }) {
             },
           ],
         },
+        {
+          test: /\.(svg|png|jpe?g|gif)$/i,
+          loader: "file-loader",
+        },
       ],
     },
     entry: {
@@ -78,6 +82,12 @@ function createWebpackConfig({ production }) {
         template: "public/index.html",
       }),
     ],
+    devServer: {
+      static: {
+        directory: path.join(__dirname, "public"),
+      },
+      compress: true,
+    },
   };
 
   return webpackConfig;

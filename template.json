@@ -1,11 +1,11 @@
 {
   "package": {
     "devDependencies": {
-      "@rushstack/eslint-config": "workspace:*",
-      "@rushstack/heft": "workspace:*",
-      "@rushstack/heft-jest-plugin": "workspace:*",
-      "@rushstack/heft-sass-plugin": "workspace:*",
-      "@rushstack/heft-webpack5-plugin": "workspace:*",
+      "@rushstack/eslint-config": "2.4.5",
+      "@rushstack/heft": "0.42.4",
+      "@rushstack/heft-jest-plugin": "0.1.48",
+      "@rushstack/heft-sass-plugin": "0.2.5",
+      "@rushstack/heft-webpack5-plugin": "0.4.21",
       "@testing-library/jest-dom": "^5.14.1",
       "@testing-library/react": "^12.0.0",
       "@testing-library/user-event": "^13.2.1",
@@ -16,6 +16,7 @@
       "autoprefixer": "~9.8.0",
       "css-loader": "~4.2.1",
       "eslint": "~7.30.0",
+      "file-loader": "^6.2.0",
       "html-webpack-plugin": "~5.5.0",
       "node-sass": "6.0.1",
       "postcss": "7.0.32",
