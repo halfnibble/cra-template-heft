@@ -1,0 +1,38 @@
+{
+  "package": {
+    "devDependencies": {
+      "@rushstack/eslint-config": "workspace:*",
+      "@rushstack/heft": "workspace:*",
+      "@rushstack/heft-jest-plugin": "workspace:*",
+      "@rushstack/heft-sass-plugin": "workspace:*",
+      "@rushstack/heft-webpack5-plugin": "workspace:*",
+      "@testing-library/jest-dom": "^5.14.1",
+      "@testing-library/react": "^12.0.0",
+      "@testing-library/user-event": "^13.2.1",
+      "@types/heft-jest": "1.0.1",
+      "@types/react": "^17.0.20",
+      "@types/react-dom": "^17.0.9",
+      "@types/webpack-env": "1.13.0",
+      "autoprefixer": "~9.8.0",
+      "css-loader": "~4.2.1",
+      "eslint": "~7.30.0",
+      "html-webpack-plugin": "~5.5.0",
+      "node-sass": "6.0.1",
+      "postcss": "7.0.32",
+      "postcss-loader": "~4.0.1",
+      "sass-loader": "~12.3.0",
+      "style-loader": "~1.2.1",
+      "typescript": "^4.4.2",
+      "web-vitals": "^2.1.0"
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "react-app/jest"]
+    },
+    "scripts": {
+      "start": "heft start --clean",
+      "build": "heft build --clean",
+      "test": "heft test --clean",
+      "eject": "react-scripts eject"
+    }
+  }
+}
