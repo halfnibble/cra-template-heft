@@ -1,0 +1,26 @@
+{
+  "name": "cra-template-heft",
+  "version": "0.1.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "heft"
+  ],
+  "description": "The base Heft template for Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/halfnibble/cra-template-heft.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "bugs": {
+    "url": "https://github.com/halfnibble/cra-template-heft/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
